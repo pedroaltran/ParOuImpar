@@ -1,0 +1,31 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(224, 224, 224);    
+}
+
+.container{
+    padding: 10px;
+    border-radius: 10px;
+    position:inherit;
+    width: 450px;
+    background-color: lightyellow;
+    margin: 0 auto 0 auto;
+}
+
+.container h1{
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center;
+    background-color: lightskyblue ;
+    color: #FFF;    
+}
+
+.container h3{
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    color: rgb(75, 75, 75);
+}

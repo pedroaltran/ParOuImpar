@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicio 3</title>
+    <script type="text/javascript">
+        function abrirAlerta(){
+            var loop = parseInt(document.getElementById('n1').value);
+            for (var x=0; x<=loop; x++) {
+            
+            if (x === 0) {
+                alert((x +  " é zero"));
+            }else if (x % 2 === 0) {
+                alert((x + " é par"));   
+            }else {
+                alert((x + " é impar"));
+            }
+        }
+         }   
+            
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1><b>Exercicio 3:</b></h1>
+        <h3>Verificar pares e impares até: <input type="" name="" id="n1"></h3>        
+        <button onclick="abrirAlerta()">Enviar</button>
+    </div>
+</body>
+</html>
